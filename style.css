@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f4f4f4;
+    padding: 20px;
+}
+
+.main-image img {
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid #222;
+    margin-bottom: 20px;
+}
+
+.thumbnail-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.thumbnail-container img {
+    width: 80px;
+    height: 60px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.thumbnail-container img:hover {
+    transform: scale(1.1);
+}
